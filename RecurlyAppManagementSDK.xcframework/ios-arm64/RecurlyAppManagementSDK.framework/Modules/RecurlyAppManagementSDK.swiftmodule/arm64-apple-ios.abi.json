@@ -1,0 +1,284 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RecurlyAppManagementSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "RecurlyAppManagementSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "RecurlyAppManagementSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "RecurlyAppManagementSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RETransactionHandler",
+        "printedName": "RETransactionHandler",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RETransactionHandler",
+                "printedName": "RecurlyAppManagementSDK.RETransactionHandler",
+                "usr": "s:23RecurlyAppManagementSDK20RETransactionHandlerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23RecurlyAppManagementSDK20RETransactionHandlerC6sharedACvpZ",
+            "mangledName": "$s23RecurlyAppManagementSDK20RETransactionHandlerC6sharedACvpZ",
+            "moduleName": "RecurlyAppManagementSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RETransactionHandler",
+                    "printedName": "RecurlyAppManagementSDK.RETransactionHandler",
+                    "usr": "s:23RecurlyAppManagementSDK20RETransactionHandlerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23RecurlyAppManagementSDK20RETransactionHandlerC6sharedACvgZ",
+                "mangledName": "$s23RecurlyAppManagementSDK20RETransactionHandlerC6sharedACvgZ",
+                "moduleName": "RecurlyAppManagementSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "purchase",
+            "printedName": "purchase(product:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PurchaseResult",
+                "printedName": "StoreKit.Product.PurchaseResult",
+                "usr": "s:8StoreKit7ProductV14PurchaseResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Product",
+                "printedName": "StoreKit.Product",
+                "usr": "s:8StoreKit7ProductV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<StoreKit.Product.PurchaseOption>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PurchaseOption",
+                    "printedName": "StoreKit.Product.PurchaseOption",
+                    "usr": "s:8StoreKit7ProductV14PurchaseOptionV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23RecurlyAppManagementSDK20RETransactionHandlerC8purchase7product7options8StoreKit7ProductV14PurchaseResultOAI_ShyAI0M6OptionVGtYaKF",
+            "mangledName": "$s23RecurlyAppManagementSDK20RETransactionHandlerC8purchase7product7options8StoreKit7ProductV14PurchaseResultOAI_ShyAI0M6OptionVGtYaKF",
+            "moduleName": "RecurlyAppManagementSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(update:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VerificationResult",
+                "printedName": "StoreKit.VerificationResult<StoreKit.Transaction>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Transaction",
+                    "printedName": "StoreKit.Transaction",
+                    "usr": "s:8StoreKit11TransactionV"
+                  }
+                ],
+                "usr": "s:8StoreKit18VerificationResultO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23RecurlyAppManagementSDK20RETransactionHandlerC6handle6updatey8StoreKit18VerificationResultOyAF11TransactionVG_tF",
+            "mangledName": "$s23RecurlyAppManagementSDK20RETransactionHandlerC6handle6updatey8StoreKit18VerificationResultOyAF11TransactionVG_tF",
+            "moduleName": "RecurlyAppManagementSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23RecurlyAppManagementSDK20RETransactionHandlerC",
+        "mangledName": "$s23RecurlyAppManagementSDK20RETransactionHandlerC",
+        "moduleName": "RecurlyAppManagementSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "RecurlyAppManagementSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "REPurchasePayload",
+        "printedName": "REPurchasePayload",
+        "declKind": "Struct",
+        "usr": "s:23RecurlyAppManagementSDK17REPurchasePayloadV",
+        "mangledName": "$s23RecurlyAppManagementSDK17REPurchasePayloadV",
+        "moduleName": "RecurlyAppManagementSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RecurlyAppManagementSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "RecurlyAppManagementSDK"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/georgeshoemaker\/Developer\/recurly\/RecurlyPurchaseWrapper\/RecurlyAppManagementSDK\/REConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 37,
+      "value": "\"com.recurly.RecurlyAppManagementSDK\""
+    },
+    {
+      "filePath": "\/Users\/georgeshoemaker\/Developer\/recurly\/RecurlyPurchaseWrapper\/RecurlyAppManagementSDK\/REConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 366,
+      "length": 6,
+      "value": "\"main\""
+    },
+    {
+      "filePath": "\/Users\/georgeshoemaker\/Developer\/recurly\/RecurlyPurchaseWrapper\/RecurlyAppManagementSDK\/REConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 763,
+      "length": 61,
+      "value": "\"https:\/\/app-sync.subscription.digitalsys.com.br\/v1\/purchase\""
+    },
+    {
+      "filePath": "\/Users\/georgeshoemaker\/Developer\/recurly\/RecurlyPurchaseWrapper\/RecurlyAppManagementSDK\/REConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 899,
+      "length": 63,
+      "value": "\"https:\/\/callbacks-app-store.staging.recurlyqa.com\/v1\/purchase\""
+    },
+    {
+      "filePath": "\/Users\/georgeshoemaker\/Developer\/recurly\/RecurlyPurchaseWrapper\/RecurlyAppManagementSDK\/REConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1034,
+      "length": 53,
+      "value": "\"https:\/\/callbacks-app-store.recurly.com\/v1\/purchase\""
+    },
+    {
+      "filePath": "\/Users\/georgeshoemaker\/Developer\/recurly\/RecurlyPurchaseWrapper\/RecurlyAppManagementSDK\/RETransactionHandler.swift",
+      "kind": "Array",
+      "offset": 802,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/georgeshoemaker\/Developer\/recurly\/RecurlyPurchaseWrapper\/RecurlyAppManagementSDK\/REPayloadUploader.swift",
+      "kind": "StringLiteral",
+      "offset": 170,
+      "length": 37,
+      "value": "\"com.recurly.RecurlyAppManagementSDK\""
+    },
+    {
+      "filePath": "\/Users\/georgeshoemaker\/Developer\/recurly\/RecurlyPurchaseWrapper\/RecurlyAppManagementSDK\/REPayloadUploader.swift",
+      "kind": "StringLiteral",
+      "offset": 219,
+      "length": 6,
+      "value": "\"main\""
+    }
+  ]
+}

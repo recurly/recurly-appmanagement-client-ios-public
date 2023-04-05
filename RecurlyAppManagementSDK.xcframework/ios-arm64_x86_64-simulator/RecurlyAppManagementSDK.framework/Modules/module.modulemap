@@ -1,0 +1,11 @@
+framework module RecurlyAppManagementSDK {
+  umbrella header "RecurlyAppManagementSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module RecurlyAppManagementSDK.Swift {
+  header "RecurlyAppManagementSDK-Swift.h"
+  requires objc
+}
