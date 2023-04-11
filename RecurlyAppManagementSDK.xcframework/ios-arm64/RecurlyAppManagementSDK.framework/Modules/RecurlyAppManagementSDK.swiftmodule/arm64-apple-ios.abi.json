@@ -22,6 +22,67 @@
         "moduleName": "RecurlyAppManagementSDK"
       },
       {
+        "kind": "TypeDecl",
+        "name": "REConstants",
+        "printedName": "REConstants",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sdkMode",
+            "printedName": "sdkMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23RecurlyAppManagementSDK11REConstantsV7sdkModeSSvpZ",
+            "mangledName": "$s23RecurlyAppManagementSDK11REConstantsV7sdkModeSSvpZ",
+            "moduleName": "RecurlyAppManagementSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23RecurlyAppManagementSDK11REConstantsV7sdkModeSSvgZ",
+                "mangledName": "$s23RecurlyAppManagementSDK11REConstantsV7sdkModeSSvgZ",
+                "moduleName": "RecurlyAppManagementSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:23RecurlyAppManagementSDK11REConstantsV",
+        "mangledName": "$s23RecurlyAppManagementSDK11REConstantsV",
+        "moduleName": "RecurlyAppManagementSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "StoreKit",
         "printedName": "StoreKit",
@@ -241,21 +302,28 @@
     {
       "filePath": "\/Users\/georgeshoemaker\/Developer\/recurly\/RecurlyPurchaseWrapper\/RecurlyAppManagementSDK\/REConstants.swift",
       "kind": "StringLiteral",
-      "offset": 763,
+      "offset": 518,
+      "length": 9,
+      "value": "\"RELEASE\""
+    },
+    {
+      "filePath": "\/Users\/georgeshoemaker\/Developer\/recurly\/RecurlyPurchaseWrapper\/RecurlyAppManagementSDK\/REConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 954,
       "length": 61,
       "value": "\"https:\/\/app-sync.subscription.digitalsys.com.br\/v1\/purchase\""
     },
     {
       "filePath": "\/Users\/georgeshoemaker\/Developer\/recurly\/RecurlyPurchaseWrapper\/RecurlyAppManagementSDK\/REConstants.swift",
       "kind": "StringLiteral",
-      "offset": 899,
+      "offset": 1090,
       "length": 63,
       "value": "\"https:\/\/callbacks-app-store.staging.recurlyqa.com\/v1\/purchase\""
     },
     {
       "filePath": "\/Users\/georgeshoemaker\/Developer\/recurly\/RecurlyPurchaseWrapper\/RecurlyAppManagementSDK\/REConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1034,
+      "offset": 1225,
       "length": 53,
       "value": "\"https:\/\/callbacks-app-store.recurly.com\/v1\/purchase\""
     },
