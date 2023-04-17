@@ -28,8 +28,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "sdkMode",
-            "printedName": "sdkMode",
+            "name": "sdkBuildConfig",
+            "printedName": "sdkBuildConfig",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -39,8 +39,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:23RecurlyAppManagementSDK11REConstantsV7sdkModeSSvpZ",
-            "mangledName": "$s23RecurlyAppManagementSDK11REConstantsV7sdkModeSSvpZ",
+            "usr": "s:23RecurlyAppManagementSDK11REConstantsV14sdkBuildConfigSSvpZ",
+            "mangledName": "$s23RecurlyAppManagementSDK11REConstantsV14sdkBuildConfigSSvpZ",
             "moduleName": "RecurlyAppManagementSDK",
             "static": true,
             "declAttributes": [
@@ -64,8 +64,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:23RecurlyAppManagementSDK11REConstantsV7sdkModeSSvgZ",
-                "mangledName": "$s23RecurlyAppManagementSDK11REConstantsV7sdkModeSSvgZ",
+                "usr": "s:23RecurlyAppManagementSDK11REConstantsV14sdkBuildConfigSSvgZ",
+                "mangledName": "$s23RecurlyAppManagementSDK11REConstantsV14sdkBuildConfigSSvgZ",
                 "moduleName": "RecurlyAppManagementSDK",
                 "static": true,
                 "implicit": true,
@@ -288,42 +288,35 @@
     {
       "filePath": "\/Users\/georgeshoemaker\/Developer\/recurly\/RecurlyPurchaseWrapper\/RecurlyAppManagementSDK\/REConstants.swift",
       "kind": "StringLiteral",
-      "offset": 267,
+      "offset": 254,
       "length": 37,
       "value": "\"com.recurly.RecurlyAppManagementSDK\""
     },
     {
       "filePath": "\/Users\/georgeshoemaker\/Developer\/recurly\/RecurlyPurchaseWrapper\/RecurlyAppManagementSDK\/REConstants.swift",
       "kind": "StringLiteral",
-      "offset": 366,
+      "offset": 353,
       "length": 6,
       "value": "\"main\""
     },
     {
       "filePath": "\/Users\/georgeshoemaker\/Developer\/recurly\/RecurlyPurchaseWrapper\/RecurlyAppManagementSDK\/REConstants.swift",
       "kind": "StringLiteral",
-      "offset": 518,
+      "offset": 526,
       "length": 9,
       "value": "\"RELEASE\""
     },
     {
       "filePath": "\/Users\/georgeshoemaker\/Developer\/recurly\/RecurlyPurchaseWrapper\/RecurlyAppManagementSDK\/REConstants.swift",
       "kind": "StringLiteral",
-      "offset": 954,
-      "length": 61,
-      "value": "\"https:\/\/app-sync.subscription.digitalsys.com.br\/v1\/purchase\""
-    },
-    {
-      "filePath": "\/Users\/georgeshoemaker\/Developer\/recurly\/RecurlyPurchaseWrapper\/RecurlyAppManagementSDK\/REConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1090,
+      "offset": 976,
       "length": 63,
       "value": "\"https:\/\/callbacks-app-store.staging.recurlyqa.com\/v1\/purchase\""
     },
     {
       "filePath": "\/Users\/georgeshoemaker\/Developer\/recurly\/RecurlyPurchaseWrapper\/RecurlyAppManagementSDK\/REConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1225,
+      "offset": 1111,
       "length": 53,
       "value": "\"https:\/\/callbacks-app-store.recurly.com\/v1\/purchase\""
     },

@@ -10,7 +10,7 @@ import _Concurrency
 import _StringProcessing
 import os
 public struct REConstants {
-  public static let sdkMode: Swift.String
+  public static let sdkBuildConfig: Swift.String
 }
 @_hasMissingDesignatedInitializers public class RETransactionHandler {
   public static let shared: RecurlyAppManagementSDK.RETransactionHandler
