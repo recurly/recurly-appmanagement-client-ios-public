@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/RecurlyAppManagementSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		DlO4Ap2WA96QLEJNXi9TqwdXYZ8=
+		kn4FD1M8ANtZauIp1Bt0fJEJG5A=
 		</data>
 		<key>Modules/RecurlyAppManagementSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		JfKbSR38/5Bxw0Iu2NLV/kHjBTI=
+		W+kGKCDPjJE0bo5pNlYGeueKcas=
 		</data>
 		<key>Modules/RecurlyAppManagementSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/RecurlyAppManagementSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		JfKbSR38/5Bxw0Iu2NLV/kHjBTI=
+		W+kGKCDPjJE0bo5pNlYGeueKcas=
 		</data>
 		<key>Modules/RecurlyAppManagementSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yrlJesi5FRxGpAOe3joEFzDuVu4=
+		0IlpgziTPD2nMBY/juCwgMS8CQk=
 		</data>
 		<key>Modules/RecurlyAppManagementSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		DlO4Ap2WA96QLEJNXi9TqwdXYZ8=
+		kn4FD1M8ANtZauIp1Bt0fJEJG5A=
 		</data>
 		<key>Modules/RecurlyAppManagementSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		iKZu8cvV5J36y0VObfqJeNRA6/A=
+		SdE9/h12bMYRcSsLWcdI93j0oeo=
 		</data>
 		<key>Modules/RecurlyAppManagementSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/RecurlyAppManagementSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		iKZu8cvV5J36y0VObfqJeNRA6/A=
+		SdE9/h12bMYRcSsLWcdI93j0oeo=
 		</data>
 		<key>Modules/RecurlyAppManagementSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5MFEAfXZ9vLdYr/6+e4C3xElKqY=
+		ORgLR3KL7k0a22Iam+2QNa+emfQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6uIkkpW+6EoF9GnWLoMHeXSsR5z8YQ/p2jlPFA0td34=
+			k0rt1oLYElmsolK38ZZuQmj2269xCSQhJryJ5NFhCLU=
 			</data>
 		</dict>
 		<key>Modules/RecurlyAppManagementSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yK2M+v7CtRtfrPmmlLIWP/5JuXF7dHooF3LhZEl42GU=
+			rdJXKqx7t9Zt4ldqFwxkzYLWFRwdLHEU2kQPo8KR384=
 			</data>
 		</dict>
 		<key>Modules/RecurlyAppManagementSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yK2M+v7CtRtfrPmmlLIWP/5JuXF7dHooF3LhZEl42GU=
+			rdJXKqx7t9Zt4ldqFwxkzYLWFRwdLHEU2kQPo8KR384=
 			</data>
 		</dict>
 		<key>Modules/RecurlyAppManagementSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z2I+QYAGb4oil0/qLuRMdYTcYD+DGnL4dpxqmO7nlJ8=
+			mzjzugkpHl3UMste8Hc57g9UoegIIzoJ1Rng0kdn2So=
 			</data>
 		</dict>
 		<key>Modules/RecurlyAppManagementSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6uIkkpW+6EoF9GnWLoMHeXSsR5z8YQ/p2jlPFA0td34=
+			k0rt1oLYElmsolK38ZZuQmj2269xCSQhJryJ5NFhCLU=
 			</data>
 		</dict>
 		<key>Modules/RecurlyAppManagementSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BAMxSz0Bs/uLEP6jTxtHYZbER6Ir6HRyyN0OOHV9VK8=
+			WhZ0Hb/TQzb4xKy4b/G8Mqyo+jAA5ZggbWDTdMErP3o=
 			</data>
 		</dict>
 		<key>Modules/RecurlyAppManagementSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BAMxSz0Bs/uLEP6jTxtHYZbER6Ir6HRyyN0OOHV9VK8=
+			WhZ0Hb/TQzb4xKy4b/G8Mqyo+jAA5ZggbWDTdMErP3o=
 			</data>
 		</dict>
 		<key>Modules/RecurlyAppManagementSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VEZMme9+QDaP8WYaQggNK2h/2VQRqEG3FvbK73bROpk=
+			9Enf/JmQkOJ56GOZPQ1IyqlvZruTN+jgT83Q66SDWpg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -9,6 +9,9 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import os
+public struct REConstants {
+  public static let sdkBuildConfig: Swift.String
+}
 @_hasMissingDesignatedInitializers public class RETransactionHandler {
   public static let shared: RecurlyAppManagementSDK.RETransactionHandler
   #if compiler(>=5.3) && $AsyncAwait
